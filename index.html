@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
+</head>
+<body>
+  
+    <div id="main">
+        <div class="wrapper">
+            <div class="header">
+                <div class="header-content">
+                    <h4 class="title">Form Basic</h4>
+                    <div class="menu">
+                        <li class="home">
+                            Home 
+                            <i class="ti-angle-right"></i>
+                        </li>
+    
+                        <li class="library">Library</li>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="body-top">
+                    <div class="body-left">
+                        <div class="body-left1">
+                            <h4 class="personalInfo">Personal Info</h4>
+
+                            <form action="">
+                                <div class="first-name">
+                                  <div class="before-box">
+                                    <label for="fname">First Name</label>
+                                  </div>
+                                  <div class="in-box">
+                                    <input type="text" id="fname" name="firstname" placeholder="First Name Here">
+                                  </div>
+                                </div>
+
+                                <div class="first-name">
+                                    <div class="before-box">
+                                      <label for="fname">Last Name</label>
+                                    </div>
+                                    <div class="in-box">
+                                      <input type="text" id="fname" name="firstname" placeholder="Last Name Here">
+                                    </div>
+                                  </div>
+
+                                  <div class="first-name">
+                                    <div class="before-box">
+                                      <label for="fname">Password</label>
+                                    </div>
+                                    <div class="in-box">
+                                      <input type="text" id="fname" name="firstname" placeholder="Password Here">
+                                    </div>
+                                  </div>
+
+                                  <div class="first-name">
+                                    <div class="before-box">
+                                      <label for="fname">Company</label>
+                                    </div>
+                                    <div class="in-box">
+                                      <input type="text" id="fname" name="firstname" placeholder="Company Name Here">
+                                    </div>
+                                  </div>
+
+                                  <div class="first-name">
+                                    <div class="before-box">
+                                      <label for="fname">Contact No</label>
+                                    </div>
+                                    <div class="in-box">
+                                      <input type="text" id="fname" name="firstname" placeholder="Contact No Here">
+                                    </div>
+                                  </div>
+
+                                  <div class="first-name">
+                                    <div class="before-box">
+                                      <label for="fname">Message</label>
+                                    </div>
+                                    <div class="in-box">
+                                      <textarea class="textarea" id="fname" name="message" placeholder="" style=" width: 75%px; height:55.6px"></textarea>
+                                    </div>
+                                  </div>
+                            </form>
+                        </div>
+
+
+                        <div class="line">
+                          <hr style="border: 1px solid #eee">
+                        </div>
+                        
+
+                        <div class="body-left1-button">
+                            <button class="button">Submit</button>
+                        </div>
+
+
+
+                        <div class="body-left2">
+                          <h5 class="b-l2-title">Form Elements</h5>
+
+                          <form action="/action_page.php">
+                            <div class="b-l2">
+                              <div class="before-box-l2">
+                                <label for="fname">Single Select</label>
+                              </div>
+                              <div class="in-box-l2">
+                                <select id="country" name="country">
+                                  <option value="australia">Select</option>
+                                  <option value="canada">Alaskan/Hawaiian Time Zone</option>
+                                  <option value="usa">Alaska</option>
+                                  <option value="usa">Hawaii</option>
+                                  <option value="usa">Pacific Time Zone</option>
+                                  <option value="usa">California</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="b-l2">
+
+                              <div class="before-box-l2">
+                                <label for="lname">Multiple Select</label>
+                              </div>
+
+                              <div class="in-box-l2">
+                                <input type="text-l2" id="lname" name="lastname" placeholder="">
+                              </div>
+
+                              <div class="selection1">x New Mexico</div>
+
+                              <div class="selection2">x South Dakota</div>
+
+                            </div>
+
+                            
+                          </form>
+
+
+                          <div class="tick">
+                            <label for="">Radio Buttons</label>
+                            <div class="radio">
+                              <!-- <input id="345" type="radio" value="1" name="question1">
+                                        <label for="345">First One</label>
+                                        <br>
+                                        <input id="346" type="radio" value="1" name="question1">
+                                        <label for="346">Second One</label>
+                                        <br>
+                                        <input id="347" type="radio" value="1" name="question1">
+                                        <label for="347">Third One</label> -->
+
+                                <input id="check1" name="tick" type="radio" value="one" />
+                                <label for="check1">First One</label>
+                                <br>
+
+                                <input id="check2" name="tick" type="radio" value="two" />
+                                <label for="check2">Second One</label>
+                                <br>
+
+                                <input id="check3" name="tick" type="radio" value="three" />
+                                <label for="check3">Third One</label>
+                                
+                              
+                            </div>
+                          </div>
+
+
+                    
+
+
+                          <div class="tick">
+                            <label for="">Checkboxes</label>
+                            <div class="checkbox">
+                             
+                              <!-- <input id="check1" name="tick" type="radio" value="one" />
+                              <label for="check1">First One</label>
+                              <br>
+
+                              <input id="check2" name="tick" type="radio" value="two" />
+                              <label for="check2">Second One</label>
+                              <br>
+
+                              <input id="check3" name="tick" type="radio" value="three" />
+                              <label for="check3">Third One</label> -->
+                              
+
+                              <input id="345" type="checkbox" value="1" name="question1">
+                                        <label for="345">First One</label>
+                                        <br>
+                                        <input id="346" type="checkbox" value="1" name="question1">
+                                        <label for="346">Second One</label>
+                                        <br>
+                                        <input id="347" type="checkbox" value="1" name="question1">
+                                        <label for="347">Third One</label> 
+                            
+                            </div>
+                          </div>
+
+                          <div class="file">
+                            <label for="">File Upload</label>
+                            <div class="choose-file">
+                              <input type="file" placeholder="Choose File">
+                              <!-- No file chosen -->
+                              <label for="">Choose file...</label>
+                            </div>
+                          </div>
+                            
+
+                          <form class="in-box-l2-end" action="/action_page.php">
+                            <div class="b-l2">
+                              <div class="before-box-l2">
+                                <label for="fname">Disabled input</label>
+                              </div>
+                              <div class="in-box-l2">
+                                <input type="text-l2" id="fname" name="firstname" placeholder="Disabled input">
+                              </div>
+                            </div>
+                          </form>
+
+                        </div>
+                        
+
+                         <div class="line">
+                          <hr style="border: 1px solid #eee">
+                        </div>
+                        
+
+
+                        <div class="body-left2-button">
+                          <button class="button">Submit</button>
+                        </div>
+
+
+
+
+                        <div class="body-left3">
+                          <h5 class="body-right1-title">Forms Control</h5>
+
+                          <div class="body-right1-content">
+                            <form action="">
+                              <div class="include1">
+                                <label for="date">Hue</label>
+
+                                <input type="text" id="date" name="datemask" placeholder="#fff6161">
+
+                                <span class="minicolors-swatch-color" style="background-color: rgb(255, 97, 97);"></span>
+                                
+
+                              </div>
+                          
+                              <div class="include2">
+                                <label for="date">Bottom left (default) </label>
+
+                                <input type="text" id="date" name="datemask" placeholder="#0088cc">
+
+                                <span class="minicolors-swatch-color" style="background-color: #0088cc;"></span>
+                              </div>
+
+                              <div class="include3">
+                                <label for="date">Top right</label>
+                                <input type="text" id="date" name="datemask" placeholder="#0088cc">
+                                <span class="minicolors-swatch-color" style="background-color: #0088cc;"></span>
+                              </div>
+
+                              <div class="include4">
+                                <label for="date">Datepicker</label>
+                                <input type="text" id="date" name="datemask" placeholder="mm/dd/yyyy">
+                                <span class="input-group-text" id="basic-addon1" style="background-color: #f8f9fa;  width: 40px;
+                                height: 35px;">
+                                  <i class="ti-calendar"></i>
+                                </span>
+                                
+                                
+                                
+                              </div>
+
+                              <div class="include5">
+                                <label for="date">Autoclose Datepicker</label>
+                                <input type="text" id="date" name="datemask" placeholder="mm/dd/yyyy ">
+                                
+
+                                <span class="input-group-text" id="basic-addon1" style="background-color: #f8f9fa;  width: 40px;
+                                height: 35px;">
+                                  <i class="ti-calendar"></i>
+                                </span>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+
+                        <div class="body-left3-button">
+                          <button class="button1">Save</button>
+                          <button class="button2">Reset</button>
+                          <button class="button3">Edit</button>
+                          <button class="button4">Cancel</button>
+                        </div>
+                    </div>
+
+                    
+        
+                    <div class="body-right">
+                        <div class="body-right1">
+                            <h5 class="body-right1-title">Form Elements</h5>
+
+                            <div class="body-right1-content">
+                              <form action="">
+                                <div class="include-a">
+                                  <label for="date">Date Mask <small>dd/mm/yyyy</small></label>
+                                <input type="text" id="date" name="datemask" placeholder="Enter Date">
+                                </div>
+                            
+                                <div class="include-b">
+                                  <label for="date">Phone <small>(999) 999-9999</small></label>
+                                  <input type="text" id="date" name="datemask" placeholder="Enter Phone Number">
+
+                                </div>
+
+                                <div class="include-c">
+                                  <label for="date">International Number <small>+19 999 999 999</small></label>
+                                  <input type="text" id="date" name="datemask" placeholder="International Phone Number">
+
+                                </div>
+
+                                <div class="include-d">
+                                  <label for="date">Phone / xEx <small>(999) 999-9999 / x999999</small></label>
+                                  <input type="text" id="date" name="datemask" placeholder="Enter Phone Number">
+
+                                </div>
+
+                                <div class="include-e">
+                                  <label for="date">Purchase Order <small>aaaa 9999-****</small></label>
+                                  <input type="text" id="date" name="datemask" placeholder="Enter Purchase Order ">
+
+                                </div>
+                              </form>
+
+                             
+                            </div>
+                        </div>
+
+                        <div class="body-right2">
+                          <h4 class="personalInfo">Form Elements</h4>
+
+                          <form action="">
+                              <div class="first-name1">
+
+                                <div class="before-box">
+                                  <label for="fname">Tooltip Input</label>
+                                </div>
+
+                                <div class="in-box">
+                                  <input type="text" id="fname" name="firstname" placeholder="Hover For Tooltip">
+                                </div>
+
+                              </div>
+
+                              <div class="first-name2">
+
+                                <div class="before-box">
+                                  <label for="fname">Type Ahead Input</label>
+                                </div>
+
+                                <div class="in-box">
+                                  <input type="text" id="fname" name="firstname" placeholder="Type here for auto complete">
+                                </div>
+
+                              </div>
+
+                              <div class="first-name3">
+
+                                <div class="before-box">
+                                  <label for="fname"> Prepended Input</label>
+                                </div>
+
+                                <div class="in-box">
+                                  <span class="input-group=text" id="basic-addon1">#</span>
+                                  <input type="text" id="fname" name="firstname" placeholder="Prepend">
+                                </div>
+
+                              </div>
+
+                              <div class="first-name4">
+
+                                <div class="before-box">
+                                  <label for="fname">Appended Input</label>
+                                </div>
+
+                                <div class="in-box">
+                                  <input type="text" id="fname" name="firstname" placeholder="5.000">
+                                  <span class="input-group=text" id="basic-addon1">$</span>
+                                </div>
+
+                              </div>
+
+                              <div class="first-name5">
+
+                                <div class="before-box">
+                                  <label for="fname">Input with Success</label>
+                                </div>
+
+                                <div class="in-box">
+                                  <input type="text" id="fname" name="firstname" placeholder="">
+                                  <div class="valid-feedback">Woohoo!</div>
+                                </div>
+
+                              </div>
+
+                              <div class="first-name6">
+
+                                <div class="before-box">
+                                  <label for="fname">Input with Error</label>
+                                </div>
+
+                                <div class="in-box">
+                                  <input type="text" id="fname" name="firstname" placeholder="">
+                                  <div class="valid-feedback">Please correct the error</div>
+                                </div>
+
+                              </div>
+                          </form>
+                              
+                        </div>
+
+                        <div class="body-right3">
+                          <div class="body-right3-row2">
+                            <input type="text-row1" placeholder="col-md-12">
+                          </div>
+                          
+                          <div class="body-right3-row2">
+
+                            <div class="row-mt">
+                              <input type="text-row21" placeholder="col-md-11">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row22" placeholder="cc">
+                            </div>
+                            
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row31" placeholder="col-md-10">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row32" placeholder="col-md-">
+                            </div>
+                            
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row41" placeholder="col-md-9">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row42" placeholder="col-md-3">
+                            </div>
+
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row51" placeholder="col-md-8">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row52" placeholder="col-md-4">
+                            </div>
+
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row61" placeholder="col-md-7">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row62" placeholder="col-md-5">
+                            </div>
+
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row71" placeholder="col-md-6">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row72" placeholder="col-md-6">
+                            </div>
+
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row81" placeholder="col-md-5">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row82" placeholder="col-md-7">
+                            </div>
+
+                          </div>
+
+                          <div class="body-right3-row2">
+                            <div class="row-mt">
+                              <input type="text-row91" placeholder="col-md-">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row92" placeholder="col-md-3">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row93" placeholder="col-md-4">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row94" placeholder="col-md-">
+                            </div>
+                            <div class="row-mt">
+                              <input type="text-row95" placeholder="cc">
+                            </div>
+                            
+                          </div>
+
+
+                          
+                          
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="body-bottom">
+                    <div class="body-bottom-content">
+                      <h4 class="Quill">Quill Editor</h4>
+
+                      <div class="toolbar">
+                       <div class="group1">
+                        <p>Normal</p>
+
+                      <!-- .blackiconcolor {color:black;} -->
+
+                        <div class="caret-up">
+                          <img class="photo" src="./assets/img/caret-up-solid.svg" alt="" >
+                        </div>
+
+                        <div class="caret-down">
+                          <img class="photo" src="./assets/img/caret-down-solid.svg" alt="">
+                        </div>
+                       </div>
+
+                       <div class="group2">
+                        <div class="bold">
+                          <img src="./assets/img/bold-solid.svg" alt="" >
+                        </div>
+
+                        <div class="italic">
+                          <img src="./assets/img/italic-solid.svg" alt="">
+                        </div>
+
+                        <div class="underline">
+                          <img src="./assets/img/underline-solid.svg" alt="">
+                        </div>
+
+                        <div class="link">
+                          <img src="./assets/img/link-solid.svg" alt="">
+                        </div>
+                       </div>
+
+                       <div class="group3">
+                        <div class="list-ol">
+                          <img src="./assets/img/list-ol-solid.svg" alt="">
+                        </div>
+
+                        <div class="list">
+                          <img src="./assets/img/list-solid.svg" alt="">
+                        </div>
+                       </div>
+
+                       <div class="group4">
+                        
+                       </div>
+                      </div>
+
+                      
+                      <div class="editor">
+                        <p>Hello World!</p>
+                        <p>
+                          Some initial
+                          <strong>bold</strong>
+                          text
+                        </p>
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+              <p>All Rights Reserved by Matrix-admin. Designed and Developed by</p>
+              <a href="https://www.wrappixel.com">WrapPixel</a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
